@@ -1,0 +1,25 @@
+/* Author:AKSHAYA GOPALAKRISHNAN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image {
+    background-image: url(https://static.toiimg.com/thumb/msid-90681912,width-748,height-499,resizemode=4,imgsize-64316/.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+label::after {
+    content: "*";
+    color: red;
+}
+.gradient {
+    background: rgb(134, 129, 213);
+    background: linear-gradient(
+        90deg,
+        rgba(134, 129, 213, 1) 0%,
+        rgba(122, 122, 201, 1) 6%,
+        rgba(101, 205, 226, 0.8688725490196079) 42%
+    );
+}
